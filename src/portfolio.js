@@ -50,75 +50,131 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "An Innovative Product Owner who wants to make a difference in the world.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ APPLY AI AUTHENTICATION INTO STUDENT MANAGEMENT SYSTEM IN UNIVERSITY"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ BUILD AND DEVELOP AUTO ROBO FINANCE ADVISOR USING LLMS WITH AGENT GRAPH"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ RESEARCH AND DEVELOP NEW AI APPLICATIONS INTO REAL LIFE"
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+//   softwareSkills: [
+//     {
+//       skillName: "html-5",
+//       fontAwesomeClassname: "fab fa-html5"
+//     },
+//     {
+//       skillName: "css3",
+//       fontAwesomeClassname: "fab fa-css3-alt"
+//     },
+//     {
+//       skillName: "sass",
+//       fontAwesomeClassname: "fab fa-sass"
+//     },
+//     {
+//       skillName: "JavaScript",
+//       fontAwesomeClassname: "fab fa-js"
+//     },
+//     {
+//       skillName: "reactjs",
+//       fontAwesomeClassname: "fab fa-react"
+//     },
+//     {
+//       skillName: "nodejs",
+//       fontAwesomeClassname: "fab fa-node"
+//     },
+//     {
+//       skillName: "swift",
+//       fontAwesomeClassname: "fab fa-swift"
+//     },
+//     {
+//       skillName: "npm",
+//       fontAwesomeClassname: "fab fa-npm"
+//     },
+//     {
+//       skillName: "sql-database",
+//       fontAwesomeClassname: "fas fa-database"
+//     },
+//     {
+//       skillName: "aws",
+//       fontAwesomeClassname: "fab fa-aws"
+//     },
+//     {
+//       skillName: "firebase",
+//       fontAwesomeClassname: "fas fa-fire"
+//     },
+//     {
+//       skillName: "python",
+//       fontAwesomeClassname: "fab fa-python"
+//     },
+//     {
+//       skillName: "docker",
+//       fontAwesomeClassname: "fab fa-docker"
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
+softwareSkills: [
+  {
+    skillName: "python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "java",
+    fontAwesomeClassname: "fab fa-java"
+  },
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "tableau",
+    fontAwesomeClassname: "fas fa-chart-line"
+  },
+  {
+    skillName: "powerBI",
+    fontAwesomeClassname: "fas fa-chart-pie"
+  },
+  {
+    skillName: "JavaFX",
+    fontAwesomeClassname: "fas fa-code"
+  },
+  {
+    skillName: "Flutter",
+    fontAwesomeClassname: "fab fa-google"
+  },
+  {
+    skillName: "Next.js",
+    fontAwesomeClassname: "fab fa-react"
+  },
+  {
+    skillName: "docker",
+    fontAwesomeClassname: "fab fa-docker"
+  },
+  {
+    skillName: "aws",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "firebase",
+    fontAwesomeClassname: "fas fa-fire"
+  },
+  {
+    skillName: "azure",
+    fontAwesomeClassname: "fab fa-microsoft"
+  },
+  {
+    skillName: "jira",
+    fontAwesomeClassname: "fab fa-jira"
+  }
+],
+display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -130,11 +186,24 @@ const educationInfo = {
       schoolName: "UEH University",
       logo: require("./assets/images/uehLogo.jpg"),
       subHeader: "Bachelor of Information Technology",
-      duration: "September 2022 - April 2026",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "September 2022 - Present",
+      desc: "Lead technology projects in university and working with the IT Department to develop new applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Learn Innovation and Project management, use tools like BMC, VPC to ideate, launch the product and Agile in project management",
+        "Learn technology skills like Data Science, Machine Learning, Deep Learning, App development, ...",
+        "Join in many technology projects in university and work with IT Department to develop new applications"
+      ]
+    },
+    {
+      schoolName: "AIOVN Program",
+      logo: require("./assets/images/aioLogo.png"),
+      subHeader: "Diploma of Data Science and AI Engineer",
+      duration: "August 2024 - Present",
+      desc: "Studied about Data Science, Machine Learning, Deep Learning, ... Working as Research Assistant to help a doctor in university.",
+      descBullets: [
+        "Learn Python Fundamental and other package for DS",
+        "Understand about Machine Learning, how to apply Computer vision, NLP for real life application thourgh training or use service model",
+        "Learn how to research and publish paper in AI field"
       ]
     },
     {
@@ -142,8 +211,13 @@ const educationInfo = {
       logo: require("./assets/images/hcmusLogo.png"),
       subHeader: "Diploma of Data Analyst",
       duration: "September 2023 - April 2024",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Learn about DA technology skills",
+      descBullets: [
+        "Learn how to execute SQL syntax and use DBMS in company",
+        "Learn how to use Tableau, PowerBI to visualize data and make report",
+        "Make a story telling based on data",
+        "Learn how to use Python and SQL to create prediction models"
+      ]
     }
   ]
 };
@@ -154,16 +228,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Product Development", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Data Analyst", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
+    },
+    {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "75%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Database Design", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "English",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -175,30 +261,50 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Product Owner Intern",
+      company: "IT Department - UEH University",
+      companylogo: require("./assets/images/Logo_UEH_xanh.png"),
+      date: "Jan 2025 – Present",
+      desc: "Receiving high recognition from my lecturer, I had the opportunity to intern as a Product Owner and participate in a project to develop a mobile application for the university.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Build user flow and wireframe for the application",
+        "Design the database and API for the application",
+        "Research and apply AI technology into the application",
+        "Test the application and make a report for the project"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Product Assistant Intern" ,
+      company: "Project X Vietnam",
+      companylogo: require("./assets/images/projectXLogo.png"),
+      date: "Dec 2024 – Present",
+      desc: "Working as a member of the Product | Tech team at Project X, my responsibility was to gather and analyze customer issues based on the available data.",
+      descBullets: [
+        "Interview and collect data from customers",
+        "Analyze data and make a report for the project",
+        "Make ideas to improve the product",
+        "Test the products based on the data"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "Data Analyst Intern",
+      company: "Saigon.A.I",
+      companylogo: require("./assets/images/saigonAILogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      desc: "Working as a Data Analyst Intern at Saigon.A.I, I had the opportunity to work on a project to analyze customer data and make a report for the project.",
+      descBullets: [
+        "Research and analyze customer data",
+        "Make a report for the project",
+        "Visualize the data and make a story telling",
+        "Make a prediction model for the project"]
+    },
+    {
+      role: "Research Assistant",
+      company: "SGU University",
+      companylogo: require("./assets/images/sguLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Working as a Research Assistant at SGU University, I had the opportunity to work on a project to help a doctor in the university.",
+    },
   ]
 };
 
@@ -214,27 +320,27 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "PROJECTS THAT I HAVE WORKED ON APPLY AI INTO REAL LIFE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/carwebb.png"),
+      projectName: "Car Retailer Web Application",
+      projectDesc: "Build a web application for a car retailer to help customers find the car they want.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Watch Demo",
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/image.png"),
+      projectName: "UEHeroes",
+      projectDesc: "Build a Game 2d about UEH University",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Watch Demo",
           url: "http://nextu.se/"
         }
       ]
@@ -253,53 +359,113 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Saigon.A.I Internship",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "This internship was a great opportunity to learn about Data Analyst and AI technology.",
+      image: require("./assets/images/saigonAILogo.png"),
+      imageAlt: "SaigonAI Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
+    {
+      title: "3rd ICIT Presentation",
+      subtitle:
+        "My paper will be published at ICIT International Conference Proceedings by Springer will be archived in Springer Digital Library.",
+      image: require("./assets/images/icitLogo.png"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Certification",
+          url: ""
         },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
+    {
+      title: "17th FAIR Presentation",
+      subtitle:
+        "Our paper is presented at FAIR 2024 (Fundamental and Applied Information Research conference) held by PTIT University in Hanoi",
+      image: require("./assets/images/ptitLogo.png"),
+      imageAlt: "Ptit Logo",
+      footerLink: [
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Attendace Certificate",
+          url: ""
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Top 3 in Big Idea Competition",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Our project is in the top 3 of the Big Idea Competition held by the University of Economics Ho Chi Minh City",
+      image: require("./assets/images/dynamicLogo.png"),
+      imageAlt: "Dynamic Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Big Idea Reward",
+          url: "https://drive.google.com/file/d/1A2U9t3KErXBvNazbMakAeODocR5k8EvE/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "AI for Devalopers Certificate",
+      subtitle: "Completed Certifcation from ProtonX",
+      image: require("./assets/images/protonXLogo.png"),
+      imageAlt: "Proton Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: ""
         }
       ]
-    }
+    },
+    {
+      title: "Google Data Analyst Professional Certificate",
+      subtitle: "Completed Certifcation from Google for Data Analyst",
+      image: require("./assets/images/googleCousera.png"),
+      imageAlt: "Google Logo",
+      footerLink: [
+        {name: "Certification", url: "https://coursera.org/share/c2c2c4064e17a32d9d9fadcc55ccbb15"},
+        {
+          name: "Final Project",
+          url: "https://github.com/dinhtanloc/ads_enfit.git"
+        }
+      ]
+    },
+    {
+      title: "Web and Mobile App Development Professional Certificate",
+      subtitle: "Completed Certifcation from Udemy for Web and Mobile App Development",
+      image: require("./assets/images/udemyLogo.png"),
+      imageAlt: "Udemy Logo",
+      footerLink: [
+        {name: "Certification", url: "https://www.udemy.com/certificate/UC-933c9181-ed0c-493d-afab-5c9e7ec3d4d1/"},
+        {
+          name: "Final Project",
+          url: "https://github.com/dinhtanloc/student-management-app.git"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -381,7 +547,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

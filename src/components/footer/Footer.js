@@ -13,13 +13,13 @@ export default function Footer() {
           {emoji("Contact me on ")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
+          dinhloc1004@gmail.com | {" "}
           <a
-            href="https://github.com/saadpasta/developerFolio"
+            href="https://www.linkedin.com/in/%C4%91inh-t%E1%BA%A5n-l%E1%BB%99c-104606277/"
             target="_blank"
             rel="noreferrer"
           >
-            developerFolio
+            Loc Tan Dinh
           </a>
         </p>
       </div>
