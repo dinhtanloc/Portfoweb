@@ -34,7 +34,8 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/dinhtanloc",
-  linkedin: "https://www.linkedin.com/in/%C4%91inh-t%E1%BA%A5n-l%E1%BB%99c-104606277/",
+  linkedin:
+    "https://www.linkedin.com/in/%C4%91inh-t%E1%BA%A5n-l%E1%BB%99c-104606277/",
   gmail: "dinhloc1004@gmail.com",
   gitlab: "https://gitlab.com/dinhloc1004",
   facebook: "https://www.facebook.com/loc.inh.656836/",
