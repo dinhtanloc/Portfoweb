@@ -335,13 +335,37 @@ const bigProjects = {
   subtitle: "PROJECTS THAT I HAVE WORKED ON APPLY AI INTO REAL LIFE",
   projects: [
     {
+      image: require("./assets/images/moketo.png"),
+      projectName: "AutoRobo Finance Advisor",
+      projectDesc: "Build a web application to advise customers about finance using AI and Agent Graph",
+      footerLink: [
+        {
+          name: "Watch Demo",
+          url: "https://www.canva.com/design/DAGckHIbJFI/a62uPYFmxSPGkK1-N_ey5w/edit?utm_content=DAGckHIbJFI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/unity.png"),
+      projectName: "Increse HCI VR mobile game experience using MPU6050 with Unity VR game",
+      projectDesc: "Build a Unity VR game and hardware to increase HCI VR mobile game experience using MPU6050",
+      footerLink: [
+        {
+          name: "Watch Demo",
+          url: "https://www.canva.com/design/DAGrY_C0cas/ebFc0XY3aWukaaTlUn1t_g/edit?utm_content=DAGrY_C0cas&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/carwebb.png"),
       projectName: "Car Retailer Web Application",
       projectDesc: "Build a web application for a car retailer to help customers find the car they want.",
       footerLink: [
         {
           name: "Watch Demo",
-          url: "http://saayahealth.com/"
+          url: ""
         }
         //  you can add extra buttons here.
       ]
@@ -353,7 +377,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Watch Demo",
-          url: "http://nextu.se/"
+          url: "https://www.youtube.com/watch?v=fwPkxFWtfgM"
         }
       ]
     }
