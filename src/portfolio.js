@@ -261,7 +261,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Product Owner Intern",
+      role: "Applied AI Intern",
+      company: "Kyanon Digital",
+      companylogo: require("./assets/images/kyanonlogo.png"),
+      date: "April 2025 – Present",
+      desc: "Kyannon Digital is an international company specializing in delivering products and services developed through Agile processes",
+      descBullets: [
+        "Research, survey, and report on a series of the latest papers about RAG and LLM",
+        "Develop ideas and plan product implementation following the SCRUM and AGILE processes",
+        "Use Python, FastAPI, and React.js with the Langchain Framework to build the MVP of the product",
+      ]
+    },
+    {
+      role: "Fresher Product Owner",
       company: "IT Department - UEH University",
       companylogo: require("./assets/images/Logo_UEH_xanh.png"),
       date: "Jan 2025 – Present",
