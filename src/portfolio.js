@@ -23,7 +23,7 @@ const greeting = {
   username: "Loc Tan Dinh",
   title: "Hi all, I'm Loc",
   subTitle: emoji(
-    "✨ A Product Owner with expertise in innovation and experience in technology, skilled in data analysis, building Web & Mobile applications 📱, and integrating new technologies 🚀."
+    "✨ A AI Engineer with expertise in innovation and experience in technology, skilled in data analysis, building Web & Mobile applications 📱, and integrating new technologies 🚀."
   ),
   resumeLink:
     "https://drive.google.com/file/d/13aUBN7c8ECt9nBepmLUs7X4R6eHk6TQ_/view?usp=sharing", // Set to empty to hide the button
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "An Innovative Product Owner who wants to make a difference in the world.",
+  subTitle: "An Innovative AI Engineer who wants to make a difference in the world.",
   skills: [
     emoji(
       "⚡ APPLY AI AUTHENTICATION INTO STUDENT MANAGEMENT SYSTEM IN UNIVERSITY"
@@ -261,7 +261,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Applied AI Intern",
+      role: "AI Engineer Associate",
+      company: "Hitachi Digital Services",
+      companylogo: require("./assets/images/hitachi_logo.png"),
+      date: "July 2025 – Present",
+      desc: "Hitachi Digital Services is a global technology company that provides digital transformation solutions, including data analytics, cloud services, and IoT integration. It helps businesses modernize operations and drive innovation through advanced digital technologies.",
+      descBullets: [
+        "Research, survey, and report on a series of the latest papers about RAG and LLM",
+        "Develop ideas and plan product implementation following the SCRUM and AGILE processes",
+        "Use Python, FastAPI, and React.js with the Langchain Framework to build the MVP of the product",
+      ]
+    },
+    {
+      role: "AI Engineer Intern",
       company: "Kyanon Digital",
       companylogo: require("./assets/images/kyanonlogo.png"),
       date: "April 2025 – Present",
@@ -273,11 +285,11 @@ const workExperiences = {
       ]
     },
     {
-      role: "Fresher Product Owner",
+      role: "Fresher Mobile Developer",
       company: "IT Department - UEH University",
       companylogo: require("./assets/images/Logo_UEH_xanh.png"),
-      date: "Jan 2025 – Present",
-      desc: "Receiving high recognition from my lecturer, I had the opportunity to intern as a Product Owner and participate in a project to develop a mobile application for the university.",
+      date: "Jan 2025 – June 2025",
+      desc: "Receiving high recognition from my lecturer, I had the opportunity to intern as a Mobile Developer and participate in a project to develop a mobile application for the university.",
       descBullets: [
         "Build user flow and wireframe for the application",
         "Design the database and API for the application",
@@ -286,20 +298,27 @@ const workExperiences = {
       ]
     },
     {
-      role: "Product Assistant Intern" ,
-      company: "Project X Vietnam",
-      companylogo: require("./assets/images/projectXLogo.png"),
-      date: "Dec 2024 – Present",
-      desc: "Working as a member of the Product | Tech team at Project X, my responsibility was to gather and analyze customer issues based on the available data.",
-      descBullets: [
-        "Interview and collect data from customers",
-        "Analyze data and make a report for the project",
-        "Make ideas to improve the product",
-        "Test the products based on the data"
-      ]
+      role: "Research Assistant",
+      company: "UEH University",
+      companylogo: require("./assets/images/Logo_UEH_xanh.png"),
+      date: "Dec 2023 – Dec 2024",
+      desc: "Working as a Research Assistant at SGU University, I had the opportunity to work on a project to help a doctor in the university.",
     },
+    // {
+    //   role: "Product Assistant Intern" ,
+    //   company: "Project X Vietnam",
+    //   companylogo: require("./assets/images/projectXLogo.png"),
+    //   date: "Dec 2024 – Present",
+    //   desc: "Working as a member of the Product | Tech team at Project X, my responsibility was to gather and analyze customer issues based on the available data.",
+    //   descBullets: [
+    //     "Interview and collect data from customers",
+    //     "Analyze data and make a report for the project",
+    //     "Make ideas to improve the product",
+    //     "Test the products based on the data"
+    //   ]
+    // },
     {
-      role: "Data Analyst Intern",
+      role: "Data Science Intern",
       company: "Saigon.A.I",
       companylogo: require("./assets/images/saigonAILogo.png"),
       date: "Jan 2015 – Sep 2015",
@@ -310,13 +329,7 @@ const workExperiences = {
         "Visualize the data and make a story telling",
         "Make a prediction model for the project"]
     },
-    {
-      role: "Research Assistant",
-      company: "SGU University",
-      companylogo: require("./assets/images/sguLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Working as a Research Assistant at SGU University, I had the opportunity to work on a project to help a doctor in the university.",
-    },
+    
   ]
 };
 
