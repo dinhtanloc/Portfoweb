@@ -261,7 +261,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "AI Engineer Associate",
+      role: "Junior AI Engineer",
       company: "Hitachi Digital Services",
       companylogo: require("./assets/images/hitachi_logo.png"),
       date: "July 2025 – Present",
