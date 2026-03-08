@@ -26,7 +26,7 @@ const greeting = {
     "✨ A AI Engineer with expertise in innovation and experience in technology, skilled in data analysis, building Web & Mobile applications 📱, and integrating new technologies 🚀."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/13aUBN7c8ECt9nBepmLUs7X4R6eHk6TQ_/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1PQS9yHM5RfWqNz5aLEy6njYhOBLJcWSP/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -525,7 +525,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: false, // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
